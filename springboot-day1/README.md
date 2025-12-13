@@ -13,7 +13,7 @@ mvn spring-boot:run
 
 App will start on http://localhost:8080.
 
-Endpoints
+## Endpoints
 
 -GET /api/products — list
 
@@ -25,18 +25,17 @@ Endpoints
 
 -DELETE /api/products/{id} — delete
 
-Example create (curl)
+## Example create (curl)
 curl -s -X POST http://localhost:8080/api/products \
   -H "Content-Type: application/json" \
   -d '{"name":"Hat","sku":"SKU-HAT-1","price":299.5}'
 
-Notes
+## Notes
 
 -Uses H2 in-memory DB by default.
 -Lombok is used for model getters/setters; ensure your IDE has Lombok plugin enabled.
 
 
----
 
 ## How to initialize this as a GitHub repo locally
 ```bash
@@ -51,7 +50,7 @@ git branch -M main
 git push -u origin main
 
 
-Run & test quickly
+## Run & test quickly
 -mvn spring-boot:run
 -Visit http://localhost:8080/api/products (GET) — you'll see sample rows if you added data.sql.
 -Use the cURL example in README to create a product.
