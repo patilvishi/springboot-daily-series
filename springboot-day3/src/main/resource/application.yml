@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springboot-day3
+
+logging:
+  level:
+    root: INFO
