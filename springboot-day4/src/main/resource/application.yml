@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: springboot-day4
+
+server:
+  port: 8080
+
+app:
+  name: Config Demo App
+  environment: default
+  max-users: 100
+
+feature:
+  new-dashboard-enabled: false
+  beta-mode: false

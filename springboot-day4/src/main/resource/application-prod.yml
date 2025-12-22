@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: prod
+
+app:
+  environment: prod
+  max-users: 10000
+
+feature:
+  new-dashboard-enabled: false
+  beta-mode: false
