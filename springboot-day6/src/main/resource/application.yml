@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: springboot-day6
+
+server:
+  port: 8080
