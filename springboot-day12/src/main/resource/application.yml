@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-day12
+
+ logging:
+  level:
+    root: INFO
+    com.example.day12: DEBUG
+
+ server:
+  port: 8080
